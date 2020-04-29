@@ -1,0 +1,33 @@
+/* SET-UP */
+.hamburger-mnu {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hamburger-mnu::before,
+.hamburger-mnu::after {
+    content: '';
+    position: absolute;
+}
+.hamburger-mnu::before,
+.hamburger-mnu::after,
+.hamburger-mnu div {
+    height: 1%;
+    width: 65%;
+    background-color: black;
+}
+.hamburger-mnu:before {
+    transform: translateY(18px)
+}
+.hamburger-mnu:after {
+    transform: translateY(-18px)
+}
+/* ANIMATION */
+.hamburger-mnu:hover:before, .hamburger-mnu:hover:after {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
