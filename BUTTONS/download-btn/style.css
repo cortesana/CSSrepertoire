@@ -1,0 +1,32 @@
+.btn {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+/* DOWNLOAD-ARROW ICON */
+.btn i.icon-ctn {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn i.icon-ctn::before, 
+.btn i.icon-ctn::after {
+    content: '';
+    height: 50%;
+    width: 1%;
+    background-color: black;
+}
+.btn i.icon-ctn::before {
+    transform: translate(-1rem, 2rem) rotate(-45deg);
+}
+.btn i.icon-ctn::after {
+    transform: translate(1rem, 2rem) rotate(45deg);
+}
+.btn i.icon-ctn div {
+    height: 100%;
+    width: 1%;
+    background-color: black;
+}
