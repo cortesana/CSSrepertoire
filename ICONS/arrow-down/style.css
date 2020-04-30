@@ -8,14 +8,14 @@
 }
 .icon-ctn::before{
     content: '';
-    transform: translateX(7.5px) rotate(45deg);
+    transform: translateX(18px) rotate(45deg);
 }
 .icon-ctn div {
-    transform: translateX(-7.5px) rotate(-45deg);
+    transform: translateX(-18px) rotate(-45deg);
 }
 .icon-ctn::before, 
 .icon-ctn div {
-    height: 20%;
+    height: 50%;
     width: 1%;
     background-color: black;
 }
