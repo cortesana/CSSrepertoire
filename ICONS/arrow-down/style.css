@@ -6,12 +6,12 @@
     justify-content: center;
     align-items: center;
 }
-.icon-ctn::before {
+.icon-ctn::before{
     content: '';
-    transform: translateX(15px) rotate(45deg);
+    transform: translateX(7.5px) rotate(45deg);
 }
 .icon-ctn div {
-    transform: rotate(-45deg);
+    transform: translateX(-7.5px) rotate(-45deg);
 }
 .icon-ctn::before, 
 .icon-ctn div {
