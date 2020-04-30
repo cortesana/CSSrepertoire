@@ -8,10 +8,10 @@
 }
 .icon-ctn::before{
     content: '';
-    transform: translateX(18px) rotate(45deg);
+    transform: translateX(1.12rem) rotate(45deg);
 }
 .icon-ctn div {
-    transform: translateX(-18px) rotate(-45deg);
+    transform: translateX(-1.12rem) rotate(-45deg);
 }
 .icon-ctn::before, 
 .icon-ctn div {

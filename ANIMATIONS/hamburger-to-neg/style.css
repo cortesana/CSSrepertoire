@@ -23,10 +23,10 @@
     transition: opacity 0.7s;
 }
 .hamburger-mnu:before {
-    transform: translateY(17px)
+    transform: translateY(-1rem)
 }
 .hamburger-mnu:after {
-    transform: translateY(-17px)
+    transform: translateY(1rem)
 }
 /* ANIMATION */
 .hamburger-mnu::before,

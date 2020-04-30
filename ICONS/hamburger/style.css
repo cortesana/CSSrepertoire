@@ -20,8 +20,8 @@
     background-color: black;
 }
 .icon-ctn:before {
-    transform: translateY(17px)
+    transform: translateY(1rem)
 }
 .icon-ctn:after {
-    transform: translateY(-17px)
+    transform: translateY(-1rem)
 }
