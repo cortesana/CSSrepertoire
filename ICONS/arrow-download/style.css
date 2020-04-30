@@ -11,19 +11,19 @@
     content: '';
 }
 .icon-ctn::before, 
-.icon-ctn div {
-    height: 20%;
+.icon-ctn::after {
+    height: 50%;
     width: 1%;
     background-color: black;
 }
 .icon-ctn::before {
-    transform: translate(8.5px, 16px) rotate(45deg);
-}
-.icon-ctn div {
-    transform: translate(-6px, 16px) rotate(-45deg);
+    transform: translate(-17px, 32px) rotate(-45deg);
 }
 .icon-ctn::after {
-    height: 45%;
+    transform: translate(17px, 32px) rotate(45deg);
+}
+.icon-ctn div {
+    height: 100%;
     width: 1%;
     background-color: black;
 }
