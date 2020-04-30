@@ -9,9 +9,6 @@
 .icon-ctn::before, 
 .icon-ctn::after {
     content: '';
-}
-.icon-ctn::before, 
-.icon-ctn::after {
     height: 50%;
     width: 1%;
     background-color: black;
