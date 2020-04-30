@@ -17,17 +17,25 @@
 .hamburger-mnu::after,
 .hamburger-mnu div {
     height: 1%;
-    width: 65%;
+    width: 45%;
     background-color: black;
+    opacity: 1;
+    transition: opacity 0.7s;
 }
 .hamburger-mnu:before {
-    transform: translateY(18px)
+    transform: translateY(17px)
 }
 .hamburger-mnu:after {
-    transform: translateY(-18px)
+    transform: translateY(-17px)
 }
 /* ANIMATION */
+.hamburger-mnu::before,
+.hamburger-mnu::after,
+.hamburger-mnu div {
+    opacity: 1;
+    transition: opacity 0.7s;
+}
 .hamburger-mnu:hover:before, .hamburger-mnu:hover:after {
     opacity: 0;
-    transition: opacity 0.2s;
+    transition: opacity 0.3s;
 }
