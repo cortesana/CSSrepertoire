@@ -1,0 +1,28 @@
+/* SET-UP */
+.hamburger-mnu {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hamburger-mnu::before,
+.hamburger-mnu::after {
+    content: '';
+    position: absolute;
+}
+.hamburger-mnu::before,
+.hamburger-mnu::after,
+.hamburger-mnu div {
+    height: 1%;
+    width: 45%;
+    background-color: black;
+}
+.hamburger-mnu:before {
+    transform: translateY(17px)
+}
+.hamburger-mnu:after {
+    transform: translateY(-17px)
+}

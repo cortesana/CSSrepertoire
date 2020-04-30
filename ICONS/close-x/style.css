@@ -1,0 +1,24 @@
+/* SET-UP */
+.hamburger-mnu {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hamburger-mnu::before {
+    content: '';
+    position: absolute;
+    transform: rotate(-45deg);
+}
+.hamburger-mnu div {
+    transform: rotate(45deg);
+}
+.hamburger-mnu::before,
+.hamburger-mnu div {
+    height: 1%;
+    width: 45%;
+    background-color: black;
+}
