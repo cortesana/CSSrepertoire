@@ -1,5 +1,4 @@
-/* SET-UP */
-.hamburger-mnu {
+.icon-ctn {
     width: 100px;
     height: 100px;
     display: flex;
@@ -8,21 +7,21 @@
     align-items: center;
     position: relative;
 }
-.hamburger-mnu::before,
-.hamburger-mnu::after {
+.icon-ctn::before,
+.icon-ctn::after {
     content: '';
     position: absolute;
 }
-.hamburger-mnu::before,
-.hamburger-mnu::after,
-.hamburger-mnu div {
+.icon-ctn::before,
+.icon-ctn::after,
+.icon-ctn div {
     height: 1%;
     width: 45%;
     background-color: black;
 }
-.hamburger-mnu:before {
+.icon-ctn:before {
     transform: translateY(17px)
 }
-.hamburger-mnu:after {
+.icon-ctn:after {
     transform: translateY(-17px)
 }
