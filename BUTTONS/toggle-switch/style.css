@@ -1,4 +1,4 @@
-.switch-btn {
+.switch {
     display: inline-block;
     width: 55px;
     height: 30px;
@@ -8,7 +8,7 @@
     position: relative;
     transition: all 0.3s;
 }
-.switch-btn::after {
+.switch::after {
     content: '';
     position: absolute;
     width: 45%;
@@ -21,9 +21,9 @@
 .input {
     display: none;
 }
-.input:checked + .switch-btn::after {
+.input:checked + .switch::after {
     transform: translate(100%, 10%);
 }
-.input:checked + .switch-btn {
+.input:checked + .switch {
     background-color: grey;
 }
