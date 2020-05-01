@@ -1,0 +1,29 @@
+.switch-btn {
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    display: inline-block;
+    background-color: darkgrey;
+    border-radius: 15px;
+    position: relative;
+    transition: all 0.3s;
+}
+.switch-btn::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    transform: translate(2.5px, 2.5px);
+    transition: all 0.3s;
+}
+.input {
+    display: none;
+}
+.input:checked + .switch-btn::after {
+    transform: translate(27px, 2.5px);
+}
+.input:checked + .switch-btn {
+    background-color: grey;
+}
