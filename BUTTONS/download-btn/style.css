@@ -4,8 +4,7 @@
     align-items: center;
     padding: 2% 4%;
     border-radius: 5px;
-    color: black;
-
+    color: grey;
 }
 /* DOWNLOAD-ARROW ICON */
 .icon-ctn {
@@ -22,16 +21,16 @@
     content: '';
     height: 50%;
     width: 1%;
-    background-color: black;
+    background-color: grey;
 }
 .icon-ctn::before {
-    transform: translate(-1600%, 75%) rotate(-45deg);
+    transform: translate(-1200%, 70%) rotate(-45deg);
 }
 .icon-ctn::after {
-    transform: translate(1550%, 65%) rotate(45deg);
+    transform: translate(1800%, 65%) rotate(45deg);
 }
 .icon-ctn div {
     height: 100%;
     width: 1%;
-    background-color: black;
+    background-color: grey;
 }

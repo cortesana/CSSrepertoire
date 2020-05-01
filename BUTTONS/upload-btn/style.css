@@ -4,7 +4,7 @@
     align-items: center;
     padding: 2% 4%;
     border-radius: 5px;
-    color: black;
+    color: grey;
 }
 /* UPLOAD-ARROW ICON */
 .icon-ctn {
@@ -21,7 +21,7 @@
     content: '';
     height: 50%;
     width: 1%;
-    background-color: black;
+    background-color: grey;
 }
 .icon-ctn::before {
     transform: translate(-1650%, -70%) rotate(45deg);
@@ -32,5 +32,5 @@
 .icon-ctn div {
     height: 100%;
     width: 1%;
-    background-color: black;
+    background-color: grey;
 }
