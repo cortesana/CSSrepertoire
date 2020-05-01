@@ -19,19 +19,16 @@
     height: 1%;
     width: 45%;
     background-color: black;
-    opacity: 1;
-    transition: opacity 0.7s;
 }
 .hamburger-mnu:before {
-    transform: translateY(-1rem)
+    transform: translateY(-1500%)
 }
 .hamburger-mnu:after {
-    transform: translateY(1rem)
+    transform: translateY(1500%)
 }
 /* ANIMATION */
 .hamburger-mnu::before,
-.hamburger-mnu::after,
-.hamburger-mnu div {
+.hamburger-mnu::after {
     opacity: 1;
     transition: opacity 0.7s;
 }
