@@ -1,31 +1,36 @@
 .btn {
     display: flex;
     flex-direction: row;
-    padding: 10px 20px;
+    align-items: center;
+    padding: 2% 4%;
+    border-radius: 5px;
+    color: black;
+
 }
 /* DOWNLOAD-ARROW ICON */
-.btn i.icon-ctn {
+.icon-ctn {
     width: 20px;
     height: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
 }
-.btn i.icon-ctn::before, 
-.btn i.icon-ctn::after {
+.icon-ctn::before, 
+.icon-ctn::after {
     content: '';
     height: 50%;
     width: 1%;
     background-color: black;
 }
-.btn i.icon-ctn::before {
-    transform: translate(-1rem, 2rem) rotate(-45deg);
+.icon-ctn::before {
+    transform: translate(-1600%, 75%) rotate(-45deg);
 }
-.btn i.icon-ctn::after {
-    transform: translate(1rem, 2rem) rotate(45deg);
+.icon-ctn::after {
+    transform: translate(1550%, 65%) rotate(45deg);
 }
-.btn i.icon-ctn div {
+.icon-ctn div {
     height: 100%;
     width: 1%;
     background-color: black;
