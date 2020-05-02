@@ -1,0 +1,26 @@
+.go-back {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon-ctn {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-ctn::before {
+    content: '';
+    transform: translateY(1800%) rotate(45deg);
+}
+.icon-ctn div {
+    transform: translateY(-1800%) rotate(-45deg);
+}
+.icon-ctn::before, 
+.icon-ctn div {
+    height: 1%;
+    width: 50%;
+    background-color: black;
+}
