@@ -1,4 +1,4 @@
-.link-ctn {
+.go-to-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,12 +11,12 @@
     justify-content: center;
     align-items: center;
 }
-.icon-ctn::before {
+.icon-ctn::before{
     content: '';
-    transform: translateX(-1700%) rotate(45deg);
+    transform: translateX(1800%) rotate(45deg);
 }
 .icon-ctn div {
-    transform: translateX(1700%) rotate(-45deg);
+    transform: translateX(-1800%) rotate(-45deg);
 }
 .icon-ctn::before, 
 .icon-ctn div {
