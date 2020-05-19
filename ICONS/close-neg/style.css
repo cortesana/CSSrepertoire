@@ -7,7 +7,7 @@
     align-items: center;
 }
 .icon-ctn div {
-    height: 1%;
-    width: 45%;
+    height: 1px;
+    width: 45px;
     background-color: black;
 }
