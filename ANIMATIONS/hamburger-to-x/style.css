@@ -16,15 +16,15 @@
 .hamburger-mnu::before,
 .hamburger-mnu::after,
 .hamburger-mnu div {
-    height: 1%;
-    width: 45%;
+    height: 1px;
+    width: 45px;
     background-color: black;
 }
 .hamburger-mnu:before {
-    transform: translateY(-1500%)
+    transform: translateY(-17px)
 }
 .hamburger-mnu:after {
-    transform: translateY(1500%)
+    transform: translateY(17px)
 }
 /* ANIMATION */
 .hamburger-mnu::before,
