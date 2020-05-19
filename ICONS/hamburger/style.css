@@ -15,13 +15,13 @@
 .icon-ctn::before,
 .icon-ctn::after,
 .icon-ctn div {
-    height: 1%;
-    width: 45%;
+    height: 1px;
+    width: 45px;
     background-color: black;
 }
 .icon-ctn:before {
-    transform: translateY(1500%)
+    transform: translateY(17px)
 }
 .icon-ctn:after {
-    transform: translateY(-1500%)
+    transform: translateY(-17px)
 }
