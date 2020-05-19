@@ -9,15 +9,15 @@
 .icon-ctn::before, 
 .icon-ctn::after {
     content: '';
-    height: 50%;
-    width: 1%;
+    height: 50px;
+    width: 1px;
     background-color: black;
 }
 .icon-ctn::before {
-    transform: translate(-1650%, -65%) rotate(45deg);
+    transform: translate(-16.5px, -32px) rotate(45deg);
 }
 .icon-ctn::after {
-    transform: translate(1650%, -65%) rotate(-45deg);
+    transform: translate(16.5px, -32px) rotate(-45deg);
 }
 .icon-ctn div {
     height: 100%;
